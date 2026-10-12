@@ -1,0 +1,18 @@
+@font-face { font-family: "Schibsted Grotesk"; font-weight: 400; src: url("/fonts/regular.ttf") format("truetype"); font-display: swap; }
+@font-face { font-family: "Schibsted Grotesk"; font-weight: 500; src: url("/fonts/medium.ttf") format("truetype"); font-display: swap; }
+@font-face { font-family: "Schibsted Grotesk"; font-weight: 700; src: url("/fonts/bold.ttf") format("truetype"); font-display: swap; }
+:root { --himmel: #DCEBF0; --dyp: #1B2A33; --baer: #A3324A; --ull: #C08A2E; --sno: #FAFCFC; --skifer: #EDF3F4; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--sno); color: var(--dyp); font-family: "Schibsted Grotesk", system-ui, sans-serif; font-size: 17px; line-height: 1.55; }
+main { max-width: 640px; margin: 0 auto; padding: 48px 16px 64px; }
+a { color: var(--baer); }
+h1 { font-size: 36px; line-height: 1.1; letter-spacing: -0.5px; margin: 0 0 16px; }
+h2 { font-size: 20px; margin: 32px 0 4px; }
+.home { background: var(--himmel); min-height: 100vh; }
+.home main { padding-top: 15vh; }
+.icon { width: 96px; height: 96px; border-radius: 22px; display: block; margin-bottom: 24px; }
+.lead { font-size: 20px; }
+.meta { font-size: 14px; opacity: 0.65; margin: 0; }
+.draft { font-size: 14px; color: var(--ull); font-weight: 500; margin: 4px 0 0; }
+nav { margin-top: 40px; display: flex; gap: 24px; flex-wrap: wrap; }
+footer { margin-top: 48px; font-size: 14px; opacity: 0.65; }
