@@ -13,6 +13,5 @@ h2 { font-size: 20px; margin: 32px 0 4px; }
 .icon { width: 96px; height: 96px; border-radius: 22px; display: block; margin-bottom: 24px; }
 .lead { font-size: 20px; }
 .meta { font-size: 14px; opacity: 0.65; margin: 0; }
-.draft { font-size: 14px; color: var(--ull); font-weight: 500; margin: 4px 0 0; }
 nav { margin-top: 40px; display: flex; gap: 24px; flex-wrap: wrap; }
 footer { margin-top: 48px; font-size: 14px; opacity: 0.65; }
